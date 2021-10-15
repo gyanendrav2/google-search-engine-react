@@ -1,8 +1,6 @@
 import axios from "axios";
 
-const PROXY = window.location.hostname === "localhost"
-  ? "https://cors-anywhere.herokuapp.com"
-  : "/cors-proxy";
+const PROXY = "https://cors-anywhere.herokuapp.com";
 
 export const searchAPIcall = async (query: string) => {
   try {
