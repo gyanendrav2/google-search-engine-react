@@ -1,6 +1,5 @@
 import axios from "axios";
 
-const PROXY = "https://cors-anywhere.herokuapp.com";
 
 export const searchAPIcall = async (query: string) => {
   try {
